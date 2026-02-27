@@ -72,6 +72,58 @@
                 object-position: middle;
                 vertical-align: middle;
             }
+            .cat-div {
+                border-radius: 10px;
+                border: none;
+                padding-left: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 10px;
+                width: 300px;
+                box-shadow: 1px 1px 5px rgb(113, 113, 113);
+            }
+            .profile-photo {
+                width: 160px;
+                height: 160px;
+                object-fit: cover;
+                object-position: middle;
+            }
+            .friends-profile {
+                border-color: black;
+                box-shadow: 1px 1px 8px rgb(113, 113, 113);
+                width: 160px;
+                margin-top: 10px;
+                margin-right: 15px;
+                display: inline-block;
+            }
+            .name-friend {
+                margin-top: 5px;
+                font-weight: bold;
+                font-family: Arial;
+                padding-left: 8px;
+                margin-bottom: 0px;
+                font-size: 15px;
+            }
+            .mutual-friend {
+                margin-top: 5px;
+                color: rgb(76, 76, 76);
+                font-family: Arial;
+                padding-left: 8px;
+                font-size: 14px;
+            }
+            .AF-button {
+                margin-left: 8px;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-bottom: 8px;
+                padding-top: 8px;
+                margin-bottom: 10px;
+                border: none;
+                border-radius: 5px;
+                background-color: rgb(16, 128, 240);
+                color: white;
+                font-family: Arial;
+            }
 
         </style>
     </head>
@@ -89,9 +141,31 @@
         <br>
         <br>
         <br>
+        <div class="cat-div">
         <img class="cat-image" src="images/cat.jpg">
         <input class="tweet-input"placeholder="What's happening?">
         <button class="tweet-button">Tweet</button>
+        </div>
+
+        <div class="friends-profile">
+            <img class="profile-photo" src="images/cat.jpg">
+            <p class="name-friend">Oliver</p>
+            <p class="mutual-friend">2 mutual friends</p>
+            <button class="AF-button">Add Friend</button>
+        </div>
+        <div class="friends-profile">
+            <img class="profile-photo" src="images/dog.jpg">
+            <p class="name-friend">Oliver</p>
+            <p class="mutual-friend">2 mutual friends</p>
+            <button class="AF-button">Add Friend</button>
+        </div>
+        <div class="friends-profile">
+            <img class="profile-photo" src="images/lizard.jpg">
+            <p class="name-friend">Oliver</p>
+            <p class="mutual-friend">2 mutual friends</p>
+            <button class="AF-button">Add Friend</button>
+        </div>
+
         
     </body>
 </html>
